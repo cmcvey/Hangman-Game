@@ -65,7 +65,7 @@ $playButton.on("click", function() {
 		}
 
 		if (hitCounter === currentWord.length) {
-			messageUser("Gryffindor!");
+			messageUser("You're a wizard Harry!");
 			$("#playButton").show().text("Play Again");
 			gameOver = true;
 		}
