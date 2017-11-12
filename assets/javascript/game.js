@@ -59,7 +59,7 @@ $playButton.on("click", function() {
 		}
 
 		if (strikeCounter > 2) {
-			messageUser("Avada Kadavra!")
+			messageUser("Avada Kedavra!")
 			$("#playButton").show().text("Play Again");
 			gameOver = true;
 		}
